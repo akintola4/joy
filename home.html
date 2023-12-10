@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/143f4c7aad.js" crossorigin="anonymous"></script>
+
+    <!-- swiper js libary -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- animate on scroll libary -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+
+
+<body class="bg-blue-400 text-white">
+    <header
+        class=" sm:px-20 fixed   bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 w-12/12 inset-x-0 top-0 z-10  ">
+
+        <nav class="flex items-center justify-between p-4" aria-label="Global">
+
+            <div class="mx flex flex-row items-center sm:gap-2">
+                <img src="img/logo.png" class="w-2/12 sm:w-1/12" alt="">
+                <h4 class="font-bold text-sm">AAUA realtime transcription</h4>
+            </div>
+            <ul class="hidden flex flex-row text-white   sm:flex gap-12">
+                <li><a class="relative text-lg  w-fit block hover:text-white after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+                    href="">Home</a></li>
+            <li><a class="relative text-lg  w-fit block hover:text-white after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+                    href="">About</a></li>
+            </ul>
+            </div>
+            <!-- mobile section -->
+            <button
+                class="px-3 outline-none mobile-menu-button rounded-md p-2 border sm:hidden flex border-white hover:bg-none hover:text-white">
+                <i class="fa-solid fa-bars text-white"></i></button>
+        </nav>
+        <div class="hidden mobile-menu ">
+            <ul class="mx-auto pl-10 text-white flex flex-col gap-2">
+                <li><a class="relative text-lg focus:text-white  w-fit block hover:text-white after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+                        href="">Features</a></li>
+                <li><a class="relative text-lg  w-fit block hover:text-white after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+                        href="">Pricing</a></li>
+                <li><a class="relative text-lg  w-fit block hover:text-white after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+                        href="">About</a></li>
+            </ul>
+            <div class="nav-3 pl-8 p-4">
+                <ul class="flex flex-row gap-5">
+                    <a class="flex-shrink-0 border-2 border-white hover:border-white rounded-sm px-4 p-2 cursor-pointer z-1 hover:bg-white bg-white text-black   hover:text-white "
+                        type="a" href="login.html">
+                        Login
+                    </a>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </header>
+
+    <main class="pt-32 sm:pt-40 gap-10 items-center justify-between  mx-10">
+        <div class="hero-section flex flex-col sm:flex-row gap-10 items-center justify-between ">
+            
+            <div class="sm:w-6/12 flex flex-col gap-10">
+                <h3 class="text-5xl">AAUA realtime transcription</h3>
+                <p>Stop wasting time typing and start speaking your ideas into reality. With our powerful speech
+                    transcription app, you can effortlessly convert spoken words into accurate and editable text.
+                    Whether you're a student taking notes in class, a professional dictating reports, or a creative mind
+                    brainstorming ideas, our app makes it easier than ever to capture your thoughts and ideas without
+                    ever lifting a finger.</p>
+
+                    <div class="flex  flex-col sm:flex-row gap-10" data-aos="fade-right">
+                        <a class="border-2 rounded-md p-2 border-white hover:bg-white hover:text-black  text-sm sm:text-md  text-white "
+                            href="">Generate transcription</a>
+                        <a class="border-2 rounded-md p-2 border-white hover:bg-white hover:text-black  text-sm sm:text-md  text-white  "
+                            href="">How it works</a>
+                    </div>
+            </div>
+            <div class="sm:w-6/12 mx-auto ">
+                <div class="hero-2" data-aos="zoom-in-left">
+                    <img src="hero.png" class="scale-125" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="section-1"
+        class="section-1 my-10 sm:my-20 gap-5 mx-auto sm:w-6/12 items-center text-center align-center flex flex-col">
+        <h4 class="text-2xl text-center sm:text-left sm:text-4xl font-bold" data-aos="fade-right">How it works
+        </h4>
+        <div class="flex flex-col gap-5">
+            <li class="text-sm sm:text-md text-justify" >Seamless audio and video transcription: Upload your audio or video files and let our AI-powered engine work its magic.</li>
+            <li class="text-sm sm:text-md text-justify" >High accuracy: Get perfectly accurate transcripts, even with accents and background noise.</li>
+            <li class="text-sm sm:text-md text-justify" >Easy editing: Edit and format the transcribed text to your liking.</li>
+            <li class="text-sm sm:text-md text-justify" >Intuitive design: Simple and user-friendly interface that's easy to navigate.
+            </li>
+            
+        </div>
+
+    </div>
+
+    <div class="section-2 flex flex-col gap-10 items-center justify-between ">
+            
+        <div class="sm:w-6/12 flex flex-col  gap-10">
+            <h4 class="text-2xl text-center sm:text-4xl font-bold" data-aos="fade-right">Get started
+            </h4>
+
+                <div class="flex  flex-col  gap-10" data-aos="fade-right">
+                    <input type="file" name="" id="">
+                    <a class="border-2 rounded-md p-2 border-white text-center hover:bg-white hover:text-black  text-sm sm:text-md  text-white "
+                        href="">Generate transcription</a>
+
+                </div>
+        </div>
+    </div>
+
+    <div class="hero-section flex flex-col sm:flex-row gap-10 pt-20 items-center justify-between ">
+        <div class="sm:w-6/12 mx-auto ">
+            <div class="hero-2" data-aos="zoom-in-left">
+                <img src="hero.png" class="scale-125" alt="">
+            </div>
+        </div>
+        <div class="sm:w-6/12 flex flex-col gap-10">
+            <h3 class="text-5xl">Result has been generated in realtime</h3>
+            <p>Stop wasting time typing and start speaking your ideas into reality. With our powerful speech
+                transcription app, you can effortlessly convert spoken words into accurate and editable text.
+                Whether you're a student taking notes in class, a professional dictating reports, or a creative mind
+                brainstorming ideas, our app makes it easier than ever to capture your thoughts and ideas without
+                ever lifting a finger.</p>
+
+                <div class="" data-aos="fade-right">
+                    <a class="border-2 rounded-md p-2 sm:px-32 border-white hover:bg-white hover:text-black  text-sm sm:text-md  text-white "
+                        href="">Export result</a>
+                </div>
+        </div>
+        
+    </div>
+    </main>
+
+
+
+
+</body>
+<script>
+
+    // Grab HTML Elements
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    // Add Event Listeners
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+    //to start using the libary
+    AOS.init(
+    );
+</script>
+
+</html>
